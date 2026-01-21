@@ -1,7 +1,7 @@
 -- Load Bad Language
 SMODS.Language({
-    key = 'bad',
-    label = 'Badlatro language'
+    key = "bad",
+    label = "Badlatro language",
 })
 
 -- Load Textures
