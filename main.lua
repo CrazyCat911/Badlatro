@@ -2,6 +2,7 @@
 SMODS.Language({
     key = "bad",
     label = "Badlatro language",
+    loc_key = "en-us"
 })
 
 -- Load Textures
