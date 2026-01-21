@@ -12,7 +12,10 @@ return {
                 name = "Anaglyph Deck Anaglyph Deck",
                 text = {
                     "After defeating each",
+                    "After defeating each",
                     "{C:attention}Boss Blind{}, gain a",
+                    "{C:attention}Boss Blind{}, gain a",
+                    "{C:attention,T:tag_double}#1#",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
