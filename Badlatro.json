@@ -1,7 +1,7 @@
 {
 	"id": "Badlatro",
 	"name": "Badlatro",
-	"author": ["Crazy_Cat911"],
+	"author": ["Crazy_Cat911", "Lord Cosmic"],
 	"description": "Ruining Balatro, one [anything] at a time.",
 	"prefix": "badlatro",
 	"main_file": "./main.lua",
