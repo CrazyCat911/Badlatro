@@ -1,0 +1,12 @@
+{
+	"id": "Badlatro", 
+	"name": "Badlatro", 
+	"author": ["Crazy_Cat911"], 
+	"description": "Ruining Balatro, one [anything] at a time.", 
+	"prefix": "badlatro", 
+	"main_file": "./main.lua", 
+	"badge_colour": "FF230A", 
+	"badge_text_colour": "ABC123", 
+	"display_name": "BAD", 
+	"version": "0.0.0~ALPHA"
+}
