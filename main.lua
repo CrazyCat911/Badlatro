@@ -1,7 +1,7 @@
 -- Load Bad Language
 SMODS.Language({
     key = "bad",
-    label = "Badlatro language",
+    label = "Badlatro English",
     loc_key = "en-us"
 })
 
