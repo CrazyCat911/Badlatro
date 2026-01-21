@@ -87,7 +87,17 @@ return {
                     "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
                     "Earn no {C:attention}Interest{}, becuase banks are scammers.",
                 }
-            }
+            },
+            b_magic = {
+                name = "Harry Potter Deck",
+                text = {
+                    "Start run with Professer Trelawney's",
+                    "{C:tarot,T:v_crystal_ball}#1#{} and",
+                    "{C:attention}2{} copies of",
+                    "{C:tarot,T:c_fool}#2#{}, named",
+                    "{C:attention}Ron{} and {C:attention}Hermione{}."
+                },
+            },
         }
     }
 }
