@@ -105,6 +105,14 @@ return {
                     "However, it does cost you",
                     "{C:red}#2#{} consumable slot."
                 }
+            },
+            b_painted = {
+                name = "Slightly Larger than Normal Deck",
+                text = {
+                    "{C:attention}+#1#{} hand size",
+                    "(required to hold the deck)",
+                    "{C:red}#2#{} Joker slot, due to cost cutting"
+                }
             }
         }
     }
