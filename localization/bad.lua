@@ -98,6 +98,14 @@ return {
                     "{C:attention}Ron{} and {C:attention}Hermione{}."
                 },
             },
+            b_nebula = {
+                name = "Telescope-Shaped Deck",
+                text = {
+                    "The {C:planet,T:v_telescope}#1#{} works!",
+                    "However, it does cost you",
+                    "{C:red}#2#{} consumable slot."
+                }
+            }
         }
     }
 }
