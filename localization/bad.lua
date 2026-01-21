@@ -78,6 +78,15 @@ return {
                     "start with a {C:spectral,T:c_hex}Hex{} card.",
                     "I don't know why you would want that..."
                 },
+            },
+            b_green = {
+                name = "Inflation Deck",
+                text = {
+                    "At the end of each Round:",
+                    "{C:money}$#1#{s:0.85} per remaining {C:blue}Hand",
+                    "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
+                    "Earn no {C:attention}Interest{}, becuase banks are scammers.",
+                }
             }
         }
     }
