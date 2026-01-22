@@ -149,6 +149,78 @@ return {
                     "and {C:attention,T:v_overstock_norm}#3#",
                 },
             }
+        },
+        Edition = {
+            e_base = {
+                name = "Boring",
+                text = {
+                    "No exciting effects"
+                }
+            },
+            e_foil = {
+                name = "Shiny",
+                text = {
+                    "{C:chips}+#1#{} chips"
+                }
+            },
+            e_holo = {
+                name = "Futuristic",
+                text = {
+                    "{C:mult}+#1#{} Mult",
+                },
+            },
+            e_polychrome = {
+                name = "Colorful",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult"
+                }
+            },
+            e_negative = {
+                name = "Dark",
+                text = {
+                    "{C:dark_edition}+#1#{} Joker slot,",
+                    "but it takes up a slot itself,",
+                    "which means it basically doesn't take up any space."
+                },
+            },
+            e_negative_consumable = {
+                name = "Dark",
+                text = {
+                    "{C:dark_edition}+#1#{} consumable slot,",
+                    "but it takes up a slot itself,",
+                    "which means it basically doesn't take up any space."
+                },
+            }
+        }
+    },
+    misc = {
+        labels = {
+            foil = "Shiny",
+            holographic = "Futuristic",
+            polychrome = "Colorful",
+            negative = "Dark"
+        },
+        v_dictionary = {
+            ml_foil_desc = {
+                "Shiny",
+                "+#1# Chips",
+            },
+            ml_holo_desc = {
+                "Futuristic",
+                "+#1# Mult",
+            },
+            ml_polychrome_desc = {
+                "Colorful",
+                "X#1# Mult",
+            },
+            ml_negative_desc = {
+                "Dark",
+                "+#1# Joker Slot",
+            },
+            ml_negative_consumable_desc = {
+                "Dark",
+                "+#1# consumable Slot",
+            }
         }
     }
 }
