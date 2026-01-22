@@ -193,6 +193,66 @@ return {
                     "doesn't take up any space."
                 },
             }
+        },
+        Enhanced = {
+            m_bonus = {
+                name = "Chip Card",
+                text = {
+                },
+            },
+            m_glass = {
+                name = "Invisible Card",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult",
+                    "{C:green}#2# in #3#{} chance to",
+                    "destroy card",
+                },
+            },
+            m_gold = {
+                name = "Expensive Card",
+                text = {
+                    "{C:money}$#1#{} if this",
+                    "card is held in hand",
+                    "at end of round",
+                },
+            },
+            m_lucky = {
+                name = "Dice Card",
+                text = {
+                    "{C:green}#1# in #3#{} chance",
+                    "for {C:mult}+#2#{} Mult",
+                    "{C:green}#1# in #5#{} chance",
+                    "to win {C:money}$#4#",
+                },
+            },
+            m_mult = {
+                name = "Mult Card",
+                text = {
+                    "{C:mult}+#1#{} Mult",
+                },
+            },
+            m_steel = {
+                name = "Strong Card",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult",
+                    "while this card",
+                    "stays in hand",
+                },
+            },
+            m_stone = {
+                name = "Heavy Card",
+                text = {
+                    "{C:chips}+#1#{} Chips",
+                    "no rank or suit",
+                },
+            },
+            m_wild = {
+                name = "Wild Card",
+                text = {
+                    "Can be used",
+                    "as any suit",
+                }
+            }
         }
     },
     misc = {
