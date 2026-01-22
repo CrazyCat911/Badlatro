@@ -196,7 +196,7 @@ return {
         },
         Enhanced = {
             m_bonus = {
-                name = "Chip Card",
+                name = "Blue Card",
                 text = {
                 },
             },
@@ -226,7 +226,7 @@ return {
                 },
             },
             m_mult = {
-                name = "Mult Card",
+                name = "Red Card",
                 text = {
                     "{C:mult}+#1#{} Mult",
                 },
