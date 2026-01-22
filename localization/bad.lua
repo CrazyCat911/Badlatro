@@ -149,6 +149,140 @@ return {
                     "and {C:attention,T:v_overstock_norm}#3#",
                 },
             }
+        },
+        Edition = {
+            e_base = {
+                name = "Boring",
+                text = {
+                    "No exciting effects"
+                }
+            },
+            e_foil = {
+                name = "Shiny",
+                text = {
+                    "{C:chips}+#1#{} chips"
+                }
+            },
+            e_holo = {
+                name = "Futuristic",
+                text = {
+                    "{C:mult}+#1#{} Mult",
+                },
+            },
+            e_polychrome = {
+                name = "Colorful",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult"
+                }
+            },
+            e_negative = {
+                name = "Dark",
+                text = {
+                    "{C:dark_edition}+#1#{} Joker slot,",
+                    "but it takes up a slot itself,",
+                    "which means it basically",
+                    "doesn't take up any space."
+                },
+            },
+            e_negative_consumable = {
+                name = "Dark",
+                text = {
+                    "{C:dark_edition}+#1#{} consumable slot,",
+                    "but it takes up a slot itself,",
+                    "which means it basically",
+                    "doesn't take up any space."
+                },
+            }
+        },
+        Enhanced = {
+            m_bonus = {
+                name = "Blue Card",
+                text = {
+                },
+            },
+            m_glass = {
+                name = "Invisible Card",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult",
+                    "{C:green}#2# in #3#{} chance to",
+                    "destroy card",
+                },
+            },
+            m_gold = {
+                name = "Expensive Card",
+                text = {
+                    "{C:money}$#1#{} if this",
+                    "card is held in hand",
+                    "at end of round",
+                },
+            },
+            m_lucky = {
+                name = "Dice Card",
+                text = {
+                    "{C:green}#1# in #3#{} chance",
+                    "for {C:mult}+#2#{} Mult",
+                    "{C:green}#1# in #5#{} chance",
+                    "to win {C:money}$#4#",
+                },
+            },
+            m_mult = {
+                name = "Red Card",
+                text = {
+                    "{C:mult}+#1#{} Mult",
+                },
+            },
+            m_steel = {
+                name = "Strong Card",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult",
+                    "while this card",
+                    "stays in hand",
+                },
+            },
+            m_stone = {
+                name = "Heavy Card",
+                text = {
+                    "{C:chips}+#1#{} Chips",
+                    "no rank or suit",
+                },
+            },
+            m_wild = {
+                name = "Feral Card",
+                text = {
+                    "Can be used",
+                    "as any suit",
+                }
+            }
+        }
+    },
+    misc = {
+        labels = {
+            foil = "Shiny",
+            holographic = "Futuristic",
+            polychrome = "Colorful",
+            negative = "Dark"
+        },
+        v_dictionary = {
+            ml_foil_desc = {
+                "Shiny",
+                "+#1# Chips",
+            },
+            ml_holo_desc = {
+                "Futuristic",
+                "+#1# Mult",
+            },
+            ml_polychrome_desc = {
+                "Colorful",
+                "X#1# Mult",
+            },
+            ml_negative_desc = {
+                "Dark",
+                "+#1# Joker Slot",
+            },
+            ml_negative_consumable_desc = {
+                "Dark",
+                "+#1# consumable Slot",
+            }
         }
     }
 }
