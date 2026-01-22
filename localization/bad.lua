@@ -122,6 +122,32 @@ return {
                     "score for played hand (making it square)",
                     "However, {C:red}X#1#{} base Blind size",
                 }
+            },
+            b_red = {
+                name = "Wasteful Deck",
+                text = {
+                    "You get to litter!",
+                    "{C:red}+#1#{} discard",
+                    "every round"
+                }
+            },
+            b_yellow = {
+                name = "Expensive Deck",
+                text = {
+                    "You sell this deck for",
+                    "one that looks the same!",
+                    "You earn a profit",
+                    "of {C:money}$#1#"
+                },
+            },
+            b_zodiac = {
+                name = "Voucher Deck",
+                text = {
+                    "You somehow have some vouchers:",
+                    "{C:tarot,T:v_tarot_merchant}#1#{},",
+                    "{C:planet,T:v_planet_merchant}#2#{},",
+                    "and {C:attention,T:v_overstock_norm}#3#",
+                },
             }
         }
     }
