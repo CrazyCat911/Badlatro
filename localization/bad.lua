@@ -39,7 +39,7 @@ return {
                     "much stuff?"
                 }
             },
-            b_challenge = { name = "Difficult Deck" },
+            b_challenge = { name = "Hacker Deck" },
             b_checkered = {
                 name = "Picnic Deck",
                 text = {
