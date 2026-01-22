@@ -180,7 +180,8 @@ return {
                 text = {
                     "{C:dark_edition}+#1#{} Joker slot,",
                     "but it takes up a slot itself,",
-                    "which means it basically doesn't take up any space."
+                    "which means it basically",
+                    "doesn't take up any space."
                 },
             },
             e_negative_consumable = {
@@ -188,7 +189,8 @@ return {
                 text = {
                     "{C:dark_edition}+#1#{} consumable slot,",
                     "but it takes up a slot itself,",
-                    "which means it basically doesn't take up any space."
+                    "which means it basically",
+                    "doesn't take up any space."
                 },
             }
         }
