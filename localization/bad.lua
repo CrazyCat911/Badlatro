@@ -247,7 +247,7 @@ return {
                 },
             },
             m_wild = {
-                name = "Wild Card",
+                name = "Feral Card",
                 text = {
                     "Can be used",
                     "as any suit",
