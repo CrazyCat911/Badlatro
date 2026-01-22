@@ -113,6 +113,15 @@ return {
                     "(required to hold the deck)",
                     "{C:red}#2#{} Joker slot, due to cost cutting"
                 }
+            },
+            b_plasma = {
+                name = "Square Deck",
+                text = {
+                    "Balance {C:blue}Chips{} and",
+                    "{C:red}Mult{} when calculating",
+                    "score for played hand (making it square)",
+                    "However, {C:red}X#1#{} base Blind size",
+                }
             }
         }
     }
