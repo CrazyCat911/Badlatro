@@ -285,8 +285,8 @@ return {
             purple_seal = {
                 name = "Regal Seal",
                 text = {
-                    "Discard this card to exchange for",
-                    "{X:purple,C:white}MAJESTIC{} {C:tarot}Tarot{}",
+                    "Discard this card to exchange for a",
+                    "{X:purple,C:white}MAJESTIC{} {C:tarot}Tarot{}card",
                     "{C:inactive}(Must have room)"
                 }
             }
