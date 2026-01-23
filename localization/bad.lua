@@ -253,6 +253,43 @@ return {
                     "as any suit",
                 }
             }
+        },
+        Other = {
+            red_seal = {
+                name = "Blood Seal",
+                text = {
+                    "Call the power of {X:red,C:white}BLOOD{}{X:red,C:white}MAGIC",
+                    "to retrigger this",
+                    "card {C:attention}1{} time",
+                },
+            },
+            blue_seal = {
+                name = "Abyssal Seal",
+                text = {
+                    "Call the power of The {X:blue,C:white}OCEAN{} and The {X:blue,C:white}MOON{} to",
+                    "create the {C:planet}Planet{} card",
+                    "for final played {C:attention}poker hand{}",
+                    "of round if {C:attention}held{} in hand",
+                    "{C:inactive}(Must have room)",
+                }
+            },
+            gold_seal = {
+                name = "Radiant Seal",
+                text = {
+                    "If you can afford this seal, you",
+                    "must be in {C:attention}debt{}!",
+                    "Have {C:money}$3{}!",
+                    "{C:inactive}(Only if you play this card and it scores)"
+                }
+            },
+            purple_seal = {
+                name = "Regal Seal",
+                text = {
+                    "Discard this card to exchange for a",
+                    "{X:purple,C:white}MAJESTIC{} {C:tarot}Tarot{}card",
+                    "{C:inactive}(Must have room)"
+                }
+            }
         }
     },
     misc = {
@@ -260,7 +297,11 @@ return {
             foil = "Shiny",
             holographic = "Futuristic",
             polychrome = "Colorful",
-            negative = "Dark"
+            negative = "Dark",
+            red_seal = "Blood Seal",
+            blue_seal = "Abyssal Seal",
+            gold_seal = "Radiant Seal",
+            purple_seal = "Regal Seal"
         },
         v_dictionary = {
             ml_foil_desc = {
